@@ -290,3 +290,66 @@ address {
 }
 
 /* Team END */
+
+/* Portfolio section */
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.portfolio-title {
+  color: var(--c-main);
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 72px;
+}
+.portfolio-list {
+  display: flex;
+  column-gap: 24px;
+  row-gap: 48px;
+  flex-wrap: wrap;
+}
+.portfolio-product {
+  padding: 32px 16px;
+  border-top: none;
+  border-left: 1px solid var(--c-portfolio-border);
+  border-right: 1px solid var(--c-portfolio-border);
+  border-bottom: 1px solid var(--c-portfolio-border);
+}
+.product-title {
+  color: var(--c-main);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+.product-descr {
+  color: var(--c-main-second);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Portfolio End */
+
+/* Footer */
+.footer {
+  padding: 100px 0;
+  background: var(--c-main);
+}
+
+.footer .logo {
+  /* display: inline-block; */
+  margin-right: 0;
+  margin-bottom: 16px;
+}
+.footer .logo-right {
+  color: var(--c-footer-logo);
+}
+
+.footer-descr {
+  max-width: 264px;
+  color: var(--c-footer-text);
+}
+/* End Footer */
